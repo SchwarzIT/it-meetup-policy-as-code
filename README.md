@@ -1,4 +1,3 @@
-    pulumi preview --policy-pack ../openstack-policy-pack
+# 👮 Policy as Code: How the Schwarz IT ensure Compliance and Security
 
-
-    export KUBECONFIG=/Users/dirien/hashicorp/iac/k8s/podinfo-pulumi/kubeconfig--dirien--dirien-k8s.yaml
+Code for the IT-Meetup session https://youtu.be/oOy6p96cyGw

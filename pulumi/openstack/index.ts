@@ -31,7 +31,6 @@ const secrule = new os.networking.SecGroupRule("pac22", {
     securityGroupId: secgrp.id
 })
 
-// Create an OpenStack resource (Compute Instance)
 const instance = new os.compute.Instance("test", {
     flavorName: "c1.2",
     imageName: "Ubuntu_18.04",
@@ -44,6 +43,4 @@ const instance = new os.compute.Instance("test", {
         "default",
         secgrp.name
     ]
-
-
 });
